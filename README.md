@@ -1,151 +1,96 @@
-# 🍪 Cookie Sales Analytics Dashboard | Power BI
+# Cookie Sales Analytics Dashboard | Power BI
 
-## Overview
+A business intelligence project that combines multiple Excel datasets into a relational Power BI model for sales, cost, order, inventory, customer and feedback analysis.
 
-This project demonstrates the creation of an interactive business intelligence solution using **Microsoft Power BI**. The dashboard analyzes cookie sales performance by combining multiple Excel datasets into a relational data model and presenting insights through interactive visualizations.
+## Business Objective
 
----
+Create an executive-friendly reporting solution that supports desktop and mobile users, allows interactive exploration and presents operational performance across three report pages.
 
-## Project Objectives
+## Data Sources
 
-* Analyze company sales performance
-* Monitor revenue, cost, and order trends
-* Explore customer information
-* Create executive-friendly dashboards
-* Build reports optimized for both desktop and mobile devices
+The repository includes three Excel workbooks under `Datasets/`. The Power BI model uses business data covering orders, customers, products, inventory and customer feedback.
 
----
+## Work Completed
 
-## Dataset
+- Imported and transformed Excel data with Power Query.
+- Created relationships between business tables.
+- Built KPI cards, charts, tables, slicers and drill-down interactions.
+- Developed three report pages:
+  - Cookie Bills Sales Dashboard
+  - Sales Report
+  - Management Report
+- Added cross-filtering, cross-highlighting and page navigation.
+- Designed a dedicated mobile layout.
+- Prepared the report for Power BI Service distribution.
 
-The project uses multiple Excel datasets containing:
+## Technologies
 
-* Orders
-* Customers
-* Products
-* Inventory
-* Customer Feedback
-
-The datasets were imported into Power BI and connected using relationships to create a complete reporting model.
-
----
-
-## Tools & Technologies
-
-* Microsoft Power BI Desktop
-* Microsoft Excel
-* Power Query
-* Data Modeling
-* Interactive Dashboards
-
----
-
-## Power BI Features Implemented
-
-### Data Preparation
-
-* Imported multiple Excel datasets
-* Cleaned and transformed data using Power Query
-* Created relationships between tables
-* Organized the data model
-
-### Dashboard Development
-
-Three report pages were created:
-
-* 🍪 Cookie Bills Sales Dashboard
-* 📊 Sales Report
-* 📈 Management Report
-
-Each page contains interactive visuals designed for business users.
-
-### Visualizations
-
-The report includes multiple visualization types such as:
-
-* KPI Cards
-* Column Charts
-* Bar Charts
-* Line Charts
-* Pie/Donut Charts
-* Tables
-* Interactive Filters
-* Slicers
-
-### Interactivity
-
-Implemented interactive reporting features including:
-
-* Cross-filtering
-* Cross-highlighting
-* Slicers
-* Drill-down functionality
-* Page navigation
-
-### Mobile Layout
-
-A dedicated **Power BI Mobile Layout** was designed to ensure dashboards remain readable and easy to navigate on smartphones.
-
-### Report Distribution
-
-The report was prepared for publishing to the **Power BI Service**, including:
-
-* Dashboard Pinning
-* Report Sharing
-* Subscribe Feature
-* Workspace Publishing
-
----
-
-## Skills Demonstrated
-
-* Data Visualization
-* Business Intelligence
-* Dashboard Design
-* Data Modeling
-* Power Query
-* Report Development
-* Mobile Report Optimization
-* Business Reporting
-* Interactive Analytics
-
----
+- Microsoft Power BI Desktop
+- Microsoft Excel
+- Power Query
+- Data modeling
+- Interactive data visualization
 
 ## Repository Structure
 
-```
-Cookie-Sales-Dashboard/
-│
-├── Project.pbix
-├── data.xlsx
-├── practice.xlsx
-├── final.xlsx
-├── images/
-│   ├── dashboard.png
-│   ├── sales-report.png
-│   ├── management-report.png
-│   └── mobile-layout.png
+```text
+Retail-Sales-Analytics-Dashboard/
+├── Projecta.pbix
+├── Datasets/
+│   ├── data.xlsx
+│   ├── practice.xlsx
+│   └── final.xlsx
+├── screenshots/
+│   ├── first.png
+│   ├── second.png
+│   ├── third.png
+│   ├── fourth.png
+│   ├── fifth.png
+│   ├── sixth.png
+│   ├── seventh.png
+│   ├── eighth.png
+│   └── ninth.png
 └── README.md
 ```
 
----
-
 ## Dashboard Preview
 
-* Cookie Bills Sales Dashboard
-* Sales Report
-* Management Report
-* Mobile Layout
+### View 1
+![Cookie sales dashboard view 1](screenshots/first.png)
 
----
+### View 2
+![Cookie sales dashboard view 2](screenshots/second.png)
 
-## Learning Outcomes
+### View 3
+![Cookie sales dashboard view 3](screenshots/third.png)
 
-Through this project, I learned how to:
+### View 4
+![Cookie sales dashboard view 4](screenshots/fourth.png)
 
-* Import and transform data in Power BI
-* Build a relational data model
-* Design professional business dashboards
-* Create interactive reports
-* Optimize reports for mobile devices
-* Prepare reports for sharing through the Power BI Service
+### View 5
+![Cookie sales dashboard view 5](screenshots/fifth.png)
+
+### View 6
+![Cookie sales dashboard view 6](screenshots/sixth.png)
+
+### View 7
+![Cookie sales dashboard view 7](screenshots/seventh.png)
+
+### View 8
+![Cookie sales dashboard view 8](screenshots/eighth.png)
+
+### View 9
+![Cookie sales dashboard view 9](screenshots/ninth.png)
+
+## Skills Demonstrated
+
+- Power Query data preparation
+- Relational data modeling
+- KPI and dashboard design
+- Interactive filtering and drill-down
+- Desktop and mobile report design
+- Business reporting with Power BI
+
+## Notes
+
+The `.pbix` file and source workbooks are included for review. The README now reflects the actual filenames and folder structure in the repository rather than placeholder paths.
